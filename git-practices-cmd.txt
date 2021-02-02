@@ -1,0 +1,18 @@
+git branch :- to view current working branch or chekout branch
+git status :- to check status of working branch i.e file of staging area
+git diff :- check difference of working branch and staging changes
+git diff HEAD :- check difference of working branch and last commited changes of branch
+git branch new-branch :- create new branch from latest working branch
+git push origin new-branch :- Push or commit new branch in git repository
+git chekout other-branch :- to switch to another branch
+git pull origin same-branch or another-branch :- get latest from same branch or another branch
+git log :- get all commit point of working directory to repository
+git add :- add file to staging area
+Fork :- Used for forking branch, so that user have access then he can fork branch and work on forking branch then 
+	raise pull request to main branch
+git pull --rebase :- To integrate changes of one branch to another branch , this is alternative of merge command
+git rebase --continure :- to continue rebase after resolving conflict.
+git push -f origin branch-name:- override remote branch with force fully.
+git merge branch-name :- merge branch to working branch.
+git log --graph :- to view all commit point of working brnach and merged other branch
+
